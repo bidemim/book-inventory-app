@@ -12,5 +12,19 @@ span {
 }
 
 tr[class="to-read"] span[class="status"] {
-    border: 2px solid white;
+    border: none;
+    background-image: linear-gradient(red);
+    color: white;
+}
+
+tr[class="read"] span[class="status"] {
+    border: none;
+    background-image: linear-gradient(green);
+    color: white;
+}
+
+tr[class="in-progress"] span[class="status"] {
+    border: none;
+    background-image: linear-gradient(blue);
+    color: white;
 }
