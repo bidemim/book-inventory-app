@@ -28,3 +28,40 @@ tr[class="in-progress"] span[class="status"] {
     background-image: linear-gradient(blue);
     color: white;
 }
+
+span[class="status"][class^="rate"] {
+    border-radius: 50%;
+    height: 10vh;
+    width: 4px;
+    padding: 3px;
+}
+
+ span[class^="rate"] > span {
+    background-color: #3f87a6;
+    border: none;
+    width: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3px auto;
+    height: 3px;
+ }
+
+span[class~="one"] :first-child {
+    background-image: linear-gradient(90deg, white, blue);
+ }
+
+ span[class="status"], span[class^="rate"] {
+    height: 2px;
+    width: 3px;
+    padding: 2px;
+ }
+ span[class~="two"] > :nth-child(-n+2) {
+    background-image: linear-gradient(90deg, white, blue);
+ }
+
+ span[class~="three"] span {
+    background-image: linear-gradient(90deg, white, blue);
+ }
+/*
+
+*/
