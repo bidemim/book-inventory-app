@@ -1,0 +1,18 @@
+tr[class='read'] {
+background-image: linear-gradient(0turn, #3f87a6, #ebf8e1);}
+
+tr[class='to-read'] {
+background-image: linear-gradient(1.5turn, #a64b3f, #ebf8e1);}
+
+tr[class='in-progress'] {
+background-image: linear-gradient(0.25turn, #218106, #ebf8e1);}
+
+span {
+    display: inline-block;
+}
+
+/*
+28. You should have an attribute selector to target the span elements with 
+the class of status that are descendants of tr elements with the class of 
+to-read.
+*/
